@@ -1,0 +1,21 @@
+@use '../config/variaveis';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: variaveis.$fonte-padrao;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: variaveis.$cor-fundo-body;
+    padding-left: 8px;
+  padding-right: 8px;
+  }
+
+
+

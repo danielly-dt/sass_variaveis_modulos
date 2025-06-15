@@ -1,0 +1,28 @@
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .products {
+    display: block;
+
+    .product-item {
+      margin-bottom: 32px;
+    }
+  }
+
+  header .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .menu {
+    flex-direction: column;
+
+    li {
+      margin: 8px 0;
+    }
+  }
+}
